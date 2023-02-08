@@ -1,0 +1,12 @@
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\bin\Debug\net6.0\Northwind.Domain.deps.json
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\bin\Debug\net6.0\Northwind.Domain.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\bin\Debug\net6.0\Northwind.Domain.pdb
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\obj\Debug\net6.0\Northwind.Domain.csproj.AssemblyReference.cache
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\obj\Debug\net6.0\Northwind.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\obj\Debug\net6.0\Northwind.Domain.AssemblyInfoInputs.cache
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\obj\Debug\net6.0\Northwind.Domain.AssemblyInfo.cs
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\obj\Debug\net6.0\Northwind.Domain.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\obj\Debug\net6.0\Northwind.Domain.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\obj\Debug\net6.0\refint\Northwind.Domain.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\obj\Debug\net6.0\Northwind.Domain.pdb
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Domain\obj\Debug\net6.0\ref\Northwind.Domain.dll

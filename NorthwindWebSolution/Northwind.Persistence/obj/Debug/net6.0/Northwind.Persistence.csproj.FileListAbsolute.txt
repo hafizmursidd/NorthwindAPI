@@ -1,0 +1,15 @@
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Persistence.deps.json
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Persistence.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Persistence.pdb
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Domain.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Domain.pdb
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.csproj.AssemblyReference.cache
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.AssemblyInfoInputs.cache
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.AssemblyInfo.cs
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.csproj.CopyComplete
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\refint\Northwind.Persistence.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.pdb
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\ref\Northwind.Persistence.dll

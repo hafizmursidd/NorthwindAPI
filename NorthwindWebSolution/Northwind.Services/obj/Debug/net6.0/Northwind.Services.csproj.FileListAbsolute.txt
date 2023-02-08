@@ -1,0 +1,15 @@
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\bin\Debug\net6.0\Northwind.Services.deps.json
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\bin\Debug\net6.0\Northwind.Services.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\bin\Debug\net6.0\Northwind.Services.pdb
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\bin\Debug\net6.0\Northwind.Services.Abstraction.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\bin\Debug\net6.0\Northwind.Services.Abstraction.pdb
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\Northwind.Services.csproj.AssemblyReference.cache
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\Northwind.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\Northwind.Services.AssemblyInfoInputs.cache
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\Northwind.Services.AssemblyInfo.cs
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\Northwind.Services.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\Northwind.Services.csproj.CopyComplete
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\Northwind.Services.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\refint\Northwind.Services.dll
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\Northwind.Services.pdb
+C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Services\obj\Debug\net6.0\ref\Northwind.Services.dll
