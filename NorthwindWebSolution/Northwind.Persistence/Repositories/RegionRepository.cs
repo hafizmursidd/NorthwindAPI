@@ -72,6 +72,7 @@ namespace Northwind.Persistence.Repositories
                     }
                 }
             };
+
             var dataSet = FindByCondition<Region>(model);
             Region? item = dataSet.Current;
 
