@@ -66,7 +66,7 @@ namespace Northwind.WebAPI.Controllers
             if (region == null)
             {
                 _logger.LogError("Region object sent from client is null");
-                return BadRequest("Region object is null");
+                return BadRequest($"Region with id {id} is not found");
             }
             var regionDto = new RegionDto 
             { 
@@ -128,8 +128,23 @@ namespace Northwind.WebAPI.Controllers
 
         //DELETE api/<RegionController>/5
         [HttpDelete("{id}")]
-        public void delete(int id)
+        public IActionResult delete(int? id)
         {
+            if (id == null)
+            {
+                _logger.LogError("Region id sent from client is null");
+                return BadRequest("Regiondto object is null");
+            }
+
+            var region = _repositoryManager.RegionRepository.FindRegionById(id.Value);
+            if (region == null)
+            {
+                _logger.LogError($"Region with id \"{id}\" is not found");
+                return NotFound();
+            }
+
+            _repositoryManager.RegionRepository.Remove(region);
+            return Ok("Data Has Been Removed");
         }
 
 
