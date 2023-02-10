@@ -88,7 +88,6 @@ namespace Northwind.Persistence.Repositories
         {
             throw new NotImplementedException();
         }
-
         public void Remove(Product product)
         {
             throw new NotImplementedException();
