@@ -53,7 +53,7 @@ namespace Northwind.Persistence.Base
         public void Update(SqlCommandModel model)
         {
             _adoContext.ExecuteNonQuery(model);
-            _adoContext.Dispose();
+            _adoContext.Dispose(); //test
         }
     }
 }

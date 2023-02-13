@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RldesEpfg6K1/ZGAkgaQJqpX4DHFpiRLUSDGHaAmtEFPLVTysgzLzqCZpzquiJjoPhPj9MvpTmp2UWV99Pc2+Q==",
+  "dgSpecHash": "1UqJEZk5Ui5oxyCRJxfHH9yGfEoCYmQK/SZIG07Cf+HotR6JVIce8AAMfHdi/HRfX3q/pUfvZvJgX/ilSw4IRA==",
   "success": true,
-  "projectFilePath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj",
+  "projectFilePath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

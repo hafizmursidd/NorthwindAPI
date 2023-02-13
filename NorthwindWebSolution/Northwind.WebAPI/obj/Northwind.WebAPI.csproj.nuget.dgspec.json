@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.WebAPI\\Northwind.WebAPI.csproj": {}
+    "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.WebAPI\\Northwind.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj": {
+    "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj",
+        "projectUniqueName": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj",
         "projectName": "Northwind.Contract",
-        "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Contract\\obj\\",
+        "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj",
+        "packagesPath": "C:\\Users\\hafiz\\.nuget\\packages\\",
+        "outputPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hafiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj": {
+    "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj",
+        "projectUniqueName": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj",
         "projectName": "Northwind.Domain",
-        "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Domain\\obj\\",
+        "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj",
+        "packagesPath": "C:\\Users\\hafiz\\.nuget\\packages\\",
+        "outputPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hafiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,21 +110,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj": {
+    "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj",
+        "projectUniqueName": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj",
         "projectName": "Northwind.Persistence",
-        "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Persistence\\obj\\",
+        "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj",
+        "packagesPath": "C:\\Users\\hafiz\\.nuget\\packages\\",
+        "outputPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hafiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -138,8 +138,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj": {
-                "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj"
+              "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj": {
+                "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj"
               }
             }
           }
@@ -175,21 +175,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj": {
+    "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj",
+        "projectUniqueName": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj",
         "projectName": "Northwind.Services.Abstraction",
-        "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services.Abstraction\\obj\\",
+        "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\hafiz\\.nuget\\packages\\",
+        "outputPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hafiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -230,21 +230,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj": {
+    "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj",
+        "projectUniqueName": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj",
         "projectName": "Northwind.Services",
-        "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services\\obj\\",
+        "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj",
+        "packagesPath": "C:\\Users\\hafiz\\.nuget\\packages\\",
+        "outputPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hafiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,8 +258,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj": {
-                "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj"
+              "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj": {
+                "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj"
               }
             }
           }
@@ -295,21 +295,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.WebAPI\\Northwind.WebAPI.csproj": {
+    "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.WebAPI\\Northwind.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.WebAPI\\Northwind.WebAPI.csproj",
+        "projectUniqueName": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.WebAPI\\Northwind.WebAPI.csproj",
         "projectName": "Northwind.WebAPI",
-        "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.WebAPI\\Northwind.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.WebAPI\\obj\\",
+        "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.WebAPI\\Northwind.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\hafiz\\.nuget\\packages\\",
+        "outputPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hafiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -323,20 +323,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj": {
-                "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj"
+              "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj": {
+                "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj"
               },
-              "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj": {
-                "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj"
+              "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj": {
+                "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj"
               },
-              "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj": {
-                "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj"
+              "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj": {
+                "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Persistence\\Northwind.Persistence.csproj"
               },
-              "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj": {
-                "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj"
+              "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj": {
+                "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj"
               },
-              "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj": {
-                "projectPath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj"
+              "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj": {
+                "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services\\Northwind.Services.csproj"
               }
             }
           }
@@ -375,7 +375,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

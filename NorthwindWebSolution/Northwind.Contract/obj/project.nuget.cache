@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VUjmu0UHMAXHgKBVgfyP3uG4zttMe93KhXZKpLeHwWJzNWEUsGJR2/hr6rqaJ43KMTioIwFUzLET3SC59Tab8w==",
+  "dgSpecHash": "cnOzThnqzVMK44fJsvpJZdeBaPnJK9FgekSak4IgjoRAoEjZL54ycXOXZrUft+tqIk5za+YIeP1p91zFEAi8Rw==",
   "success": true,
-  "projectFilePath": "C:\\Bootcamp\\Batch18\\NorthwindApi\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj",
+  "projectFilePath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
