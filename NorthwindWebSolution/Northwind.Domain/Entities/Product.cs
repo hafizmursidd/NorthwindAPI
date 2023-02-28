@@ -14,10 +14,14 @@ namespace Northwind.Domain.Entities
         [Key]
         public int ProductID { get; set; }
         public string? ProductName { get; set; }
+
+
         [ForeignKey("Suppliers")]
         public int SupplierID { get; set; }
+
         [ForeignKey("Categories")]
         public int CategoryID { get; set; }
+
         public string QuantityPerUnit { get; set; } = "1";
         public decimal UnitPrice { get; set; }
         public Int16 UnitsInStock { get; set; }

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Northwind.Persistence",
+    "\\Northwind.Persistence\\Base",
+    "\\Northwind.WebAPI",
+    "\\Northwind.WebAPI\\Controllers"
+  ],
+  "SelectedNode": "\\Northwind.WebAPI\\Controllers\\RegionController.cs",
+  "PreviewInSolutionExplorer": false
+}

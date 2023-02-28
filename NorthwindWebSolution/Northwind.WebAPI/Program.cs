@@ -15,6 +15,7 @@ internal class Program
         builder.Services.ConfigureIISIntegration();
         builder.Services.ConfigureDbContext(builder.Configuration);
         builder.Services.ConfigureRepositoryManager();
+        builder.Services.ConfigureUtilityService();
         builder.Services.ConfigureLoggerService();
 
         builder.Services.AddControllers();

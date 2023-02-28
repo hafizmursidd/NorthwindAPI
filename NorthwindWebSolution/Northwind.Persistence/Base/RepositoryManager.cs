@@ -16,12 +16,15 @@ namespace Northwind.Persistence.Base
         private IRegionRepository _regionRepository;
         private IProductRepository _productRepository;
 
+        private Lazy<IProductPhotoRepository> _productPhotoRepositoryLazy;
+
         //private Lazy <IRegionRepository> _regionRepositoryLazy
 
         public RepositoryManager( AdoDbContext adoContext)
         {
             _adoContext = adoContext;
             //_regionRepositoryLazy = new Lazy <IRegionRepository>( () => new RegionRepository(adoContext));
+            _productPhotoRepositoryLazy = new Lazy<IProductPhotoRepository> (() => new ProductPhotosRepository(adoContext));
         }
 
         //public IRegionRepository RegionRepository => _regionRepositoryLazy.Value;
@@ -49,5 +52,7 @@ namespace Northwind.Persistence.Base
                 return _productRepository;
             }
         }
+
+        public IProductPhotoRepository ProductPhotoRepository => _productPhotoRepositoryLazy.Value;
     }
 }

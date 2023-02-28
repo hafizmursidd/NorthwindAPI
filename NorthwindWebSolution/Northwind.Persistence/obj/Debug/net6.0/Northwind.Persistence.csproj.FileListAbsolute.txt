@@ -13,3 +13,18 @@ C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\
 C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\refint\Northwind.Persistence.dll
 C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.pdb
 C:\Bootcamp\Batch18\NorthwindApi\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\ref\Northwind.Persistence.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Persistence.deps.json
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Persistence.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Persistence.pdb
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Domain.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\bin\Debug\net6.0\Northwind.Domain.pdb
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.csproj.AssemblyReference.cache
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.AssemblyInfoInputs.cache
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.AssemblyInfo.cs
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.csproj.CoreCompileInputs.cache
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.csproj.CopyComplete
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\refint\Northwind.Persistence.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\Northwind.Persistence.pdb
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.Persistence\obj\Debug\net6.0\ref\Northwind.Persistence.dll
