@@ -170,11 +170,35 @@
           }
         }
       },
-      "Northwind.Services.Abstraction/1.0.0": {
+      "Northwind.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Contract.dll": {}
+        }
+      },
+      "Northwind.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Northwind.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Domain.dll": {}
+        }
+      },
+      "Northwind.Services.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
+          "Northwind.Contract": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Northwind.Services.Abstraction.dll": {}
@@ -429,6 +453,16 @@
         "version.txt"
       ]
     },
+    "Northwind.Contract/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Contract/Northwind.Contract.csproj",
+      "msbuildProject": "../Northwind.Contract/Northwind.Contract.csproj"
+    },
+    "Northwind.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Domain/Northwind.Domain.csproj",
+      "msbuildProject": "../Northwind.Domain/Northwind.Domain.csproj"
+    },
     "Northwind.Services.Abstraction/1.0.0": {
       "type": "project",
       "path": "../Northwind.Services.Abstraction/Northwind.Services.Abstraction.csproj",
@@ -438,6 +472,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "NLog.Extensions.Logging >= 5.0.4",
+      "Northwind.Domain >= 1.0.0",
       "Northwind.Services.Abstraction >= 1.0.0"
     ]
   },
@@ -468,6 +503,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj": {
+              "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Domain\\Northwind.Domain.csproj"
+            },
             "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj": {
               "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Services.Abstraction\\Northwind.Services.Abstraction.csproj"
             }

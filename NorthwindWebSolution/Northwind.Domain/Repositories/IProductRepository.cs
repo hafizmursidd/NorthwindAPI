@@ -15,5 +15,6 @@ namespace Northwind.Domain.Repositories
         void Insert(Product product);
         void Edit(Product product);
         void Remove(Product product);
+        int GetIdSequence();
     }
 }

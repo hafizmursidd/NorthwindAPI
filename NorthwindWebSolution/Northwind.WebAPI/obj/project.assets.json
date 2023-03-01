@@ -405,6 +405,9 @@
       "Northwind.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
         "compile": {
           "bin/placeholder/Northwind.Contract.dll": {}
         },
@@ -441,6 +444,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "NLog.Extensions.Logging": "5.0.4",
+          "Northwind.Domain": "1.0.0",
           "Northwind.Services.Abstraction": "1.0.0"
         },
         "compile": {
@@ -454,7 +458,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
+          "Northwind.Contract": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Northwind.Services.Abstraction.dll": {}

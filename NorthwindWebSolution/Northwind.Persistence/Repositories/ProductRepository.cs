@@ -84,6 +84,21 @@ namespace Northwind.Persistence.Repositories
             return item;
         }
 
+        public int GetIdSequence()
+        {
+            SqlCommandModel model = new SqlCommandModel()
+            {
+                //tujuannya untuk mendapatkan identitiy id untuk productId di table product
+                CommandText = "SELECT IDENT_CURRENT('dbo.products');",
+                CommandType = CommandType.Text,
+                CommandParameters = new SqlCommandParameterModel[] { }
+            };
+
+            decimal id = _adoContext.ExecuteScalar<decimal>(model);
+            _adoContext.Dispose();
+            return (int)id;
+        }
+
         public void Insert(Product product)
         {
             SqlCommandModel model = new SqlCommandModel()

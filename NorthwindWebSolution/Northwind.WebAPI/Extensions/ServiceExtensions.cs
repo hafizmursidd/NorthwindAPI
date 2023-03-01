@@ -36,5 +36,8 @@ namespace Northwind.WebAPI.Extensions
 
         public static void ConfigureUtilityService(this IServiceCollection services) =>
             services.AddScoped<IUtilityService, UtilityServices>();
+
+        public static void ConfigureServiceManager(this IServiceCollection services) =>
+            services.AddScoped<IServiceManager, ServiceManager>();
     }
 }

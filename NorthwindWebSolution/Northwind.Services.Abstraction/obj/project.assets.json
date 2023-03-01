@@ -44,6 +44,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Northwind.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Contract.dll": {}
+        }
       }
     }
   },
@@ -114,11 +127,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Northwind.Contract/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Contract/Northwind.Contract.csproj",
+      "msbuildProject": "../Northwind.Contract/Northwind.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Http.Features >= 5.0.17"
+      "Microsoft.AspNetCore.Http.Features >= 5.0.17",
+      "Northwind.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -147,7 +166,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj": {
+              "projectPath": "D:\\Bootcamp 18\\NorthwindWebAPI\\NorthwindAPI\\NorthwindWebSolution\\Northwind.Contract\\Northwind.Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
