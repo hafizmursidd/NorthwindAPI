@@ -36,6 +36,7 @@ namespace Northwind.WebAPI.Controllers
         [HttpPost("createProductAndUpload"), DisableRequestSizeLimit]
         public async Task<IActionResult> CreateProductPhoto()
         {
+
             //1. declare formCollection to hold form-data
             var formColletion = await Request.ReadFormAsync();
 
@@ -81,7 +82,7 @@ namespace Northwind.WebAPI.Controllers
 
             if (productPhotoGroup != null)
             {
-                _serviceManager.ProductPhotoServices.InsertProductAndProductPhoto(productPhotoGroup, out var productId);
+                _serviceManager.ProductPhotoService.InsertProductAndProductPhoto(productPhotoGroup, out var productId);
                 var productResult = _repositoryManager.ProductRepository.FindProductById(productId);
                 return Ok(productResult);
             }

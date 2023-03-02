@@ -8,6 +8,7 @@ namespace Northwind.Services.Abstraction
 {
     public interface IServiceManager
     {
-        IProductPhotoServices ProductPhotoServices { get; }
+        IProductPhotoServices ProductPhotoService { get; }
+        ISupplierServices SupplierServices { get; }
     }
 }
