@@ -104,8 +104,8 @@ namespace Northwind.WebAPI.Controllers
         [HttpGet("pageList")]
         public async Task<IActionResult> GetProductPageList([FromQuery] ProductParameters productParameters)
         {
-            //if (!productParameters.ValidateStockRange)
-            //    return BadRequest("MaxStock must greater than MinStock");
+            if (!productParameters.ValidateStockRange)
+                return BadRequest("MaxStock must greater than MinStock");
 
             var products = await _repositoryManager.ProductRepository.GetProductPageList(productParameters);
             Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(products.MetaData));

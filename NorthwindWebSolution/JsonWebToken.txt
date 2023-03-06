@@ -1,0 +1,12 @@
+-create table user, sign in and sign up
+
+- create user entity dan user dto
+	
+- create sp sign in
+- create userrepository
+- install package JwtBearer
+- configure secret key
+- create autenticationmanager
+- creeate configuration in service extensions
+- set authorization endpoint
+- testing

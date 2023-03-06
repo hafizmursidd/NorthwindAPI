@@ -8,9 +8,9 @@ namespace Northwind.Domain.RequestFeatures
 {
     public class ProductParameters : RequestParameters
     {
-        //public uint MinStock { get; set; }
-        //public uint MaxStock { get; set; } = int.MaxValue;
-        //public bool ValidateStockRange => MaxStock > MinStock;
-        //public string? SearchTerm { get; set; }
+        public uint MinStock { get; set; }
+        public uint MaxStock { get; set; } = int.MaxValue;
+        public bool ValidateStockRange => MaxStock > MinStock;
+        public string? SearchTerm { get; set; }
     }
 }

@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Contract", "North
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{F4BBD521-AF89-4845-8912-11856C745BA7}"
 	ProjectSection(SolutionItems) = preProject
+		JsonWebToken.txt = JsonWebToken.txt
 		Nested Join Json.txt = Nested Join Json.txt
+		Query param pagelist.txt = Query param pagelist.txt
 		Query Param Paging.txt = Query Param Paging.txt
 		Readme.txt = Readme.txt
 		QueryParamPageList.txt = QueryParamPageList.txt

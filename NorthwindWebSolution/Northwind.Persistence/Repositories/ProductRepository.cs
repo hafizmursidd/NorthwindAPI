@@ -104,29 +104,44 @@ namespace Northwind.Persistence.Repositories
         {
             SqlCommandModel model = new SqlCommandModel()
             {
-                CommandText = @"SELECT * FROM DBO.Products order by ProductId
-                                OFFSET @pageNo ROWS FETCH NEXT  @pageSize ROWS ONLY",
+                CommandText = @"SELECT * FROM DBO.Products
+                                where UnitsInStock between @minStock and @maxStock
+                                order by ProductId",
+                                //OFFSET @pageNo ROWS FETCH NEXT  @pageSize ROWS ONLY",
                 CommandType = CommandType.Text,
                 CommandParameters = new SqlCommandParameterModel[] {
                     new SqlCommandParameterModel() {
-                            ParameterName = "@pageNo",
+                            ParameterName = "@minStock",
                             DataType = DbType.Int32,
-                            Value = productParameters.PageNumber
+                            Value = productParameters.MinStock
                         },
                      new SqlCommandParameterModel() {
-                            ParameterName = "@pageSize",
+                            ParameterName = "@maxStock",
                             DataType = DbType.Int32,
-                            Value = productParameters.PageSize
+                            Value = productParameters.MaxStock
                         }
                 }
             };
 
-            var products = await GetAllAsync<Product>(model);
-            var totalRow = FindAllProduct().Count();
-          //  var productSearch = products.Where(p => p.ProductName.ToLower().Contains(productParameters.SearchTerm.Trim().ToLower()));
 
-            //return new PagedList<Product>(products.ToList(), totalRow, productParameters.PageNumber, productParameters.PageSize);
-            return new PagedList<Product>(products.ToList(), totalRow, productParameters.PageNumber, productParameters.PageSize);
+            var products = await GetAllAsync<Product>(model);
+            if (productParameters.SearchTerm != null)
+            {
+                string decodedKeyword = Uri.UnescapeDataString(productParameters.SearchTerm);
+                products = products.Where(p =>
+                    p.ProductName.ToLower().Contains(decodedKeyword.ToLower())
+                );
+            }
+
+            var totalRows = products.Count();
+
+            return PagedList<Product>.ToPagedList(products.ToList(), productParameters.PageNumber, productParameters.PageSize);
+
+            //var totalRow = FindAllProduct().Count();
+            //var productSearch = products.Where(p => p.ProductName.ToLower().Contains(productParameters.SearchTerm.Trim().ToLower()));
+
+            ////return new PagedList<Product>(products.ToList(), totalRow, productParameters.PageNumber, productParameters.PageSize);
+            //return new PagedList<Product>(productSearch.ToList(), totalRow, productParameters.PageNumber, productParameters.PageSize);
         }
 
         public async Task<IEnumerable<Product>> GetProductPaging(ProductParameters productParameters)

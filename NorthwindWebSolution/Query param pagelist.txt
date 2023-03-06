@@ -1,0 +1,9 @@
+deklarasi field min stock 
+		dan max stock, validate di product parameters.
+
+Edit ProductRepositroy Logic to filtering UnitStock yang akan ditampilkan
+Edit getproductlagelist di product controller
+
+add field SearchTerm in product parameters
+tambahkan variabel untuk mencari berdasarkan kondisi tertentu di product repository
+	serta edit returnnya
