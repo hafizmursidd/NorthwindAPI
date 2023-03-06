@@ -1,0 +1,7 @@
+Create folder Dto
+create class supplierjoin product
+create supplier nested product
+register method GetSupplierProduct to iSupplierrepository
+	Implements to supplierRepository
+	build logic pada method GetSupplierProduct
+panggil method tersebut di Suppliercontroller

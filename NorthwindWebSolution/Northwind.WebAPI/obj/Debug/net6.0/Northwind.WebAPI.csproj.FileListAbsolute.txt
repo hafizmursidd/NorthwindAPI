@@ -98,3 +98,7 @@ D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAP
 D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\obj\Debug\net6.0\Northwind.WebAPI.pdb
 D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\obj\Debug\net6.0\Northwind.WebAPI.genruntimeconfig.cache
 D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\obj\Debug\net6.0\ref\Northwind.WebAPI.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

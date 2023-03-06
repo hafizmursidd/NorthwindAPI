@@ -1,0 +1,7 @@
+Create folder RequestFeature di Project Domain
+	create class Request Parameters
+	create class product parameters
+Register method   Task<IEnumerable<Product>> GetProductPaging(ProductParameters productParameters); to IProduct Repository
+Implements method baru toproduct reposiry
+	build method di repositorynya
+create method on product controller to call method get yang ada di productrepository

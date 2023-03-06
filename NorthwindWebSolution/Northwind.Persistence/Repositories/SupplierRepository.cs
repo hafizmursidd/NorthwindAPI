@@ -1,4 +1,5 @@
-﻿using Northwind.Domain.Entities;
+﻿using Northwind.Domain.Dto;
+using Northwind.Domain.Entities;
 using Northwind.Domain.Repositories;
 using Northwind.Persistence.Base;
 using Northwind.Persistence.RepositoryContext;
@@ -33,7 +34,6 @@ namespace Northwind.Persistence.Repositories
 
             }
         }
-
         public async Task<IEnumerable<Supplier>> FindAllSupplierAsync()
         {
             SqlCommandModel model = new SqlCommandModel()
@@ -84,7 +84,6 @@ namespace Northwind.Persistence.Repositories
 
         public int GetSequenceId(string sql)
         {
-
             SqlCommandModel model = new SqlCommandModel()
             {
                 CommandText = sql,
@@ -98,60 +97,60 @@ namespace Northwind.Persistence.Repositories
             return (int)id;
         }
 
-        //public SupplierNestedProduct GetSupplierProduct(int supplierId)
-        //{
-        //    SqlCommandModel model = new SqlCommandModel()
-        //    {
-        //        CommandText = @"select s.SupplierID,CompanyName,Address, 
-        //                        p.ProductID,ProductName,CategoryID,QuantityPerUnit,UnitPrice,
-        //                        UnitsInStock,UnitsOnOrder,Discontinued,ReorderLevel
-        //                        from Suppliers s 
-        //                        join Products p on s.SupplierID=p.SupplierID
-        //                        where s.SupplierID=@supplierId;",
-        //        CommandType = CommandType.Text,
-        //        CommandParameters = new SqlCommandParameterModel[] {
-        //         new SqlCommandParameterModel() {
-        //                ParameterName = "@supplierId",
-        //                DataType = DbType.Int32,
-        //                Value = supplierId
-        //            }
-        //        }
-        //    };
+        public SupplierNestedProduct GetSupplierProduct(int supplierId)
+        {
+            SqlCommandModel model = new SqlCommandModel()
+            {
+                CommandText = @"SELECT s.SupplierID,CompanyName,Address, 
+                                    p.ProductID,ProductName,CategoryID,
+                                    QuantityPerUnit,UnitPrice, UnitsInStock,
+                                    UnitsOnOrder,Discontinued,ReorderLevel
+                                    FROM Suppliers s 
+                                    JOIN Products p on s.SupplierID=p.SupplierID
+                                    WHERE s.SupplierID=@supplierId;",
+                CommandType = CommandType.Text,
+                CommandParameters = new SqlCommandParameterModel[] {
+                     new SqlCommandParameterModel() {
+                            ParameterName = "@supplierId",
+                            DataType = DbType.Int32,
+                            Value = supplierId
+                        }
+                    }
+            };
 
-        //    var dataSet = FindByCondition<SupplierJoinProduct>(model);
+            var dataSet = FindByCondition<SupplierJoinProduct>(model);
+            var listData = new List<SupplierJoinProduct>();
 
-        //    var listData = new List<SupplierJoinProduct>();
+            while (dataSet.MoveNext())
+            {
+                listData.Add(dataSet.Current);
+            }
 
-        //    while (dataSet.MoveNext())
-        //    {
-        //        listData.Add(dataSet.Current);
-        //    }
+            var supplier = listData.Select(x => new { x.SupplierID, x.CompanyName, x.Address }).FirstOrDefault();
 
-        //    var supplier = listData.Select(x => new { x.SupplierID, x.CompanyName, x.Address }).FirstOrDefault();
+            var products = listData.Select(x => new Product
+            {
+                SupplierID = x.SupplierID,
+                CategoryID = x.CategoryID,
+                Discontinued = x.Discontinued,
+                ProductID = x.ProductID,
+                ProductName = x.ProductName,
+                QuantityPerUnit = x.QuantityPerUnit,
+                ReorderLevel = x.ReorderLevel,
+                UnitPrice = x.UnitPrice,
+                UnitsInStock = x.UnitsInStock,
+                UnitsOnOrder = x.UnitsOnOrder
+            });
 
-        //    var products = listData.Select(x => new Product
-        //    {
-        //        SupplierID = x.SupplierID,
-        //        CategoryID = x.CategoryID,
-        //        Discontinued = x.Discontinued,
-        //        ProductID = x.ProductID,
-        //        QuantityPerUnit = x.QuantityPerUnit,
-        //        ReorderLevel = x.ReorderLevel,
-        //        UnitPrice = x.UnitPrice,
-        //        UnitsInStock = x.UnitsInStock,
-        //        UnitsOnOrder = x.UnitsOnOrder
-        //    });
-
-        //    var nestedJson = new SupplierNestedProduct
-        //    {
-        //        SupplierID = supplier.SupplierID,
-        //        CompanyName = supplier.CompanyName,
-        //        Address = supplier.Address,
-        //        Products = products.ToList()
-        //    };
-
-        //    return nestedJson;
-        //}
+            var nestedJson = new SupplierNestedProduct
+            {
+                SupplierID = supplier.SupplierID,
+                CompanyName = supplier.CompanyName,
+                Address = supplier.Address,
+                Products = products.ToList()
+            };
+            return nestedJson;
+        }
 
         public void Insert(Supplier supplier)
         {

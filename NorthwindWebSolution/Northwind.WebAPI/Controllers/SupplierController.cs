@@ -37,13 +37,12 @@ namespace Northwind.WebAPI.Controllers
             return BadRequest();
         }
 
-
         [HttpGet("{id}", Name = "GetSupplierById")]
-        //public IActionResult GetSupplierById(int id)
-        //{
-        //    var supplierProduct = _repositoryManager.SupplierRepository.GetSupplierProduct(id);
-        //    return Ok(supplierProduct);
-        //}
+        public IActionResult GetSupplierById(int id)
+        {
+            var supplierProduct = _repositoryManager.SupplierRepository.GetSupplierProduct(id);
+            return Ok(supplierProduct);
+        }
 
         // DELETE api/<ProductController>/5
         [HttpDelete("{id}")]

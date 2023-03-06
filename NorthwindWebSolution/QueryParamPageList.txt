@@ -1,0 +1,8 @@
+Create class metadata di folder request fiture di project Domain
+Create PageList metadata di folder request fiture di project Domain
+Add packagereferences NewtonsoftJson on NOrthwind.WEBAPI project
+Declare 1 method d IPRoductRepository (" Task<PagedList<Product>> GetProductPageLIst(ProductParameters productParameters); ")
+	Implements method baru ke productrepository and build logic here
+buat method to getallaync di Irepositorybase di folder interface project persistence
+	Implements method baru ke repositorybase
+declare on http get method GetProductpagelist to call method  yang telah dibuat di productrepository
