@@ -102,3 +102,10 @@ D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAP
 D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Bootcamp 18\NorthwindWebAPI\NorthwindAPI\NorthwindWebSolution\Northwind.WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

@@ -3,10 +3,27 @@
 - create user entity dan user dto
 	
 - create sp sign in
-- create userrepository
+- create Iuserrepository
+	implements interface to Userrepository di project persistence
+	create logic on UserRepository
+	create ExecuteStorePRocedure di AdoContext
+	register Userrepository to Irepository manager 
+	implements method to repository manager
+
 - install package JwtBearer
-- configure secret key
+	configure jwt di appSettings.Development.Json
+	and also configure secret key
+	install or Packagereference jwtBearer di Northwind.WebAPI proj
 - create autenticationmanager
-- creeate configuration in service extensions
+	createfolder AuthenticationWebAPI di project NorthwindContract
+		create class userForAuthentication
+		create class UserForRegistration
+	create folder autenthication di northwindAPI
+	create Interface Autenctication manager
+	implements to class autenticationmanager
+- create configuration in serviceExtensions (ConfigureAuthenticationManager)
+	configure JWT di service Extension
 - set authorization endpoint
+	create user controller
+	add configure and (useAuthentication) di program.cs
 - testing

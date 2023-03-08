@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Linq;
@@ -48,7 +49,6 @@ namespace Northwind.Persistence.RepositoryContext
             }
         }
 
-
         public void ExecuteNonQuery(SqlCommandModel model)
         {
             SqlCommand sqlCommand = new(model.CommandText, _sqlConnection);
@@ -63,6 +63,29 @@ namespace Northwind.Persistence.RepositoryContext
             _sqlConnection.Open();
             sqlCommand.ExecuteNonQuery();
             _sqlConnection.Close();
+        }
+        public dynamic ExecuteStoreProcedure(SqlCommandModel model, string returnValue, int sizeLength)
+        {
+            SqlCommand sqlCommand = new(model.CommandText, _sqlConnection);
+            sqlCommand.CommandType = model.CommandType;
+            foreach (SqlCommandParameterModel parameter in model.CommandParameters)
+            {
+                sqlCommand.Parameters.Add(new SqlParameter()
+                {
+                    ParameterName = parameter.ParameterName,
+                    DbType = parameter.DataType,
+                    Value = parameter.Value
+                });
+            }
+            sqlCommand.Parameters[returnValue].Size = sizeLength;
+            sqlCommand.Parameters[returnValue].Direction = ParameterDirection.Output;
+            _sqlConnection.Open();
+
+            sqlCommand.ExecuteNonQuery();
+            _sqlConnection.Close();
+
+            var result = sqlCommand.Parameters[returnValue].Value;
+            return result;
         }
 
         public int ExecuteNonQueryReturn(SqlCommandModel model)
@@ -84,6 +107,7 @@ namespace Northwind.Persistence.RepositoryContext
             _sqlConnection.Close();
             return rowsAffected;
         }
+
 
         public void ExecuteNonQueryAsync(SqlCommandModel model)
         {
