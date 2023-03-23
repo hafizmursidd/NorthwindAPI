@@ -1,0 +1,30 @@
+
+- buka controller page yang akan dibuat pagination
+- tambahkan sebuah method configurasi Cors pada serviceExtension
+	       public static void ConfigureCors(this IServiceCollection services) =>
+           services.AddCors(options =>
+           {
+               options.AddPolicy("CorsPolicy", builder =>
+                   builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader()
+                   .WithExposedHeaders("X-Pagination")
+                   );
+           });
+- tambahkan konfigurasi pada program.cs
+    builder.services.ConfigureCor()
+    ---Perbaiki method pageList
+- Di Fe tambahkan reference project to ...Domain
+    share project reference dari ke project Fe
+buat folder di blazor wasm  (Features)
+    create class PagingLink.cs
+    create class PagingRespon.cs
+create method di IProductHttpRepo 3
+Implements to Product Repo  3
+create component pagination di component folder
+    creat code on pagination.razor 4
+    buat partial kelas di compenent tersebut 4
+buat page untuk menampilkan paginationnya.
+        liat code bapak di folder pages/productpaging.razor
+        buat partial class dan code di productpaging.razor.cs
+tambahkan menu di sidebar untuk memanggil page tadi

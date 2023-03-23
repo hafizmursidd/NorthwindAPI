@@ -25,10 +25,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{F4BBD5
 	ProjectSection(SolutionItems) = preProject
 		JsonWebToken.txt = JsonWebToken.txt
 		Nested Join Json.txt = Nested Join Json.txt
+		PaginationToFrontEnd.txt = PaginationToFrontEnd.txt
 		Query param pagelist.txt = Query param pagelist.txt
 		Query Param Paging.txt = Query Param Paging.txt
-		Readme.txt = Readme.txt
 		QueryParamPageList.txt = QueryParamPageList.txt
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class yang dibutuhkan", "Class yang dibutuhkan", "{D6B16CFC-ECC3-4198-9FAB-0BA1DA321F07}"
+	ProjectSection(SolutionItems) = preProject
+		3.txt = 3.txt
+		4.txt = 4.txt
+		PagingLInk.cs = PagingLInk.cs
+		PagingRespon.cs = PagingRespon.cs
 	EndProjectSection
 EndProject
 Global
@@ -72,6 +81,7 @@ Global
 		{32ACA688-BCF6-4183-B467-73513403A7A0} = {F24DE81A-E4EC-4393-9610-CDAAB9E2A89B}
 		{CA34F61F-2D14-4D6A-A7FB-6B3110C44C4C} = {E6283168-E7BA-447B-AEB4-2135FBFD2DDD}
 		{5D07E38C-F948-4A41-A8FB-D7A0E9A2498E} = {F24DE81A-E4EC-4393-9610-CDAAB9E2A89B}
+		{D6B16CFC-ECC3-4198-9FAB-0BA1DA321F07} = {F4BBD521-AF89-4845-8912-11856C745BA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CDDED62-3B4A-4F14-ADC4-C2B253D90F1A}
